@@ -1,0 +1,13 @@
+[package]
+name = "bas64"
+version = "0.1.0"
+edition = "2021"
+authors = ["Finity"]
+description = "Base64, but a bit smaller. Hints the name... not recommended for advanced projects but simple scripts! Because Base64 made decode way to long..."
+license = "MIT"
+repository = "https://github.com/infinity-retro/bas64"
+keywords = ["base64", "encoding", "decode", "minimal"]
+categories = ["encoding"]
+
+[dependencies]
+base64 = "0.22.1"
